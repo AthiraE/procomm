@@ -33,7 +33,7 @@
 			debugLog: false,
 			serverDateSource: 'dateandtime.php', //path to dateandtime.php file (i.e. http://my-domain.com/dateandtime.php)
 			format: 'dd:hh:mm:ss',
-			timezone: 'Europe/London',
+			timezone:'Europe/London',
 			twoDigits: 'on'
 		};
 
