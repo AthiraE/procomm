@@ -298,8 +298,8 @@ small device /mobile sm and large
     width: auto;
     height: auto; }
   .navbar-brand img {
-    max-width: 85%; 
-  max-height: 85%;}
+    max-width: 50%; 
+  max-height: 50%;}
   .header-transparent .navbar-toggler {
     background: #e7015e;
     color: #fff; }
