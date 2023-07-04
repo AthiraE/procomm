@@ -534,7 +534,7 @@ img.pull-right {
     box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02); }
 
 .header.header-classic .navbar {
-  padding: 0; }
+  padding: 10px 0; }
 
 .header.header-classic ul.navbar-nav {
   margin-top: 5px; }

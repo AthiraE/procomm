@@ -8,6 +8,159 @@
   box-sizing: border-box;
 }
 
+.header .navbar {
+  padding: 10px 0; }
+
+.header .navbar-brand {
+  padding: 0; }
+
+.header ul.navbar-nav > li > a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 78px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  display: block; }
+  .header ul.navbar-nav > li > a:hover {
+    color: #e7015e; }
+
+.header ul.navbar-nav > li.header-ticket {
+  margin-top: 15px; }
+  .header ul.navbar-nav > li.header-ticket .ticket-btn {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 25px;
+    background: #00c1c1;
+    margin-left: 30px; }
+    .header ul.navbar-nav > li.header-ticket .ticket-btn:hover {
+      background: #e7015e; }
+
+.header ul.navbar-nav li .dropdown-menu {
+  padding: 10px 20px;
+  min-width: 230px;
+  margin: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border: none; }
+  .header ul.navbar-nav li .dropdown-menu li a {
+    padding: 12px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    font-size: 14px;
+    display: block;
+    color: #222; }
+    .header ul.navbar-nav li .dropdown-menu li a:hover {
+      color: #e7015e; }
+  .header ul.navbar-nav li .dropdown-menu li:last-child a {
+    border-bottom: none; }
+
+.header.header-transparent {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  height: auto; }
+  .header.header-transparent .navbar-brand {
+    padding: 0; }
+    .header.header-transparent .navbar-brand img {
+      vertical-align: top; }
+  .header.header-transparent ul.navbar-nav {
+    position: relative;
+    top: 5px; }
+    .header.header-transparent ul.navbar-nav > li > a {
+      color: #fff;
+      line-height: 72px; }
+  .header.header-transparent.nav-border {
+    border-bottom: 1px solid #363d8a;
+    padding: 10px 0; }
+    .header.header-transparent.nav-border .navbar {
+      padding: 0px 0; }
+    .header.header-transparent.nav-border ul.navbar-nav > li.header-ticket .ticket-btn {
+      background: #3a6af0; }
+
+.header.h-transparent2 {
+  padding: 30px 0; }
+  .header.h-transparent2 .navbar.navbar-light ul.navbar-nav > li > a {
+    color: #3b1d82; }
+  .header.h-transparent2 button.navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    padding: 8px 12px;
+    font-size: 22px; }
+  .header.h-transparent2 .ticket-btn.btn {
+    border-radius: 36px;
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    color: #3b1d82;
+    font-size: 14px;
+    padding: 0 25px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px; }
+    .header.h-transparent2 .ticket-btn.btn:hover {
+      background: #ff007a;
+      color: #fff; }
+  .header.h-transparent2.sticky {
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02);
+    box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02); }
+
+.header.header-classic .navbar {
+  padding: 10px 0; }
+
+.header.header-classic ul.navbar-nav {
+  margin-top: 5px; }
+  .header.header-classic ul.navbar-nav > li > a {
+    color: #222222;
+    line-height: 74px; }
+    .header.header-classic ul.navbar-nav > li > a:hover {
+      color: #e7015e; }
+  .header.header-classic ul.navbar-nav > li.active > a {
+    color: #e7015e; }
+  .header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn {
+    background: #e7015e;
+    color: #fff; }
+    .header.header-classic ul.navbar-nav > li.header-ticket .ticket-btn:hover {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: #d20055; }
+
+.header.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background: rgba(26, 24, 49, 0.95);
+  padding: 5px 0; }
+  .header.sticky .navbar {
+    padding: 0; }
+  .header.sticky.fade_down_effect {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s; }
+  .header.sticky.header-classic {
+    background: #000000;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 0; }
+
+.dropdown-menu.show {
+  display: none; }
+
+@media (min-width: 991px) {
+  .header ul.navbar-nav li:hover > .dropdown-menu {
+    display: block;
+    border: none; } }
+
 body {
   --color: rgba(30, 30, 30);
   --bgColor: rgba(245, 245, 245);
