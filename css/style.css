@@ -1695,7 +1695,8 @@ img.pull-right {
 .ts-pricing {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+}
   .ts-pricing .speaker-shap .shap2 {
     top: 150px;
     bottom: auto; }
@@ -1859,17 +1860,14 @@ img.pull-right {
     margin-bottom: 30px; }
   .ts-pricing-item .btn {
     background: #3b1d82; }
-  .ts-pricing-item.disebled {
-    cursor: no-drop;
-    opacity: .7; }
+
     .ts-pricing-item.disebled .ts-pricing-header i {
-      background: #e7e7e7; }
+      background: #3b1d82; }
     .ts-pricing-item.disebled .ts-pricing-header .ts-pricing-name {
-      color: #cccccc; }
-    .ts-pricing-item.disebled .ts-pricing-price span {
-      opacity: .5; }
+      color: #3b1d82; }
+    
     .ts-pricing-item.disebled .btn {
-      background: #e7e7e7; }
+      background: #3b1d82; }
   .ts-pricing-item.active .ts-pricing-header i,
   .ts-pricing-item.active .btn {
     background: #e7015e; }
