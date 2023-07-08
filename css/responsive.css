@@ -298,7 +298,7 @@ small device /mobile sm and large
     width: auto;
     height: auto; }
   .navbar-brand img {
-    max-width: 100%; 
+    width: 290px; 
   max-height: 100%;}
   .header-transparent .navbar-toggler {
     align-self: center;
