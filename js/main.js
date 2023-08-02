@@ -59,7 +59,7 @@ jQuery(function ($) {
 
    if ($('.countdown').length > 0) {
       $(".countdown").jCounter({
-         date: '25 August 2023 24:00:00',
+         date: '31 August 2023 24:00:00',
          fallback: function () {
             console.log("count finished!")
          }
