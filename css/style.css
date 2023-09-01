@@ -309,6 +309,61 @@ img.pull-right {
   .btn-link:hover {
     color: #e7015e; }
     
+    .btn1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      background: #ff007a;
+      height: 50px;
+      padding: 0 35px;
+      
+      line-height: 50px;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+      outline: none;
+      text-decoration: none;
+      cursor: pointer; }
+      .btn1:focus {
+        outline: none; }
+      .btn1:hover {
+        color: #fff;
+        background: #d20055;
+        -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15); }
+      .btn1.fill {
+        background: transparent;
+        padding: 0 25px;
+        color: #fff;
+        margin-left: 20px;
+        border: 2px solid #fff; }
+        .btn1.fill:hover {
+          background: #e7015e;
+          border-color: #e7015e; }
+      .btn1.btn-round {
+        border-radius: 36px;
+        -webkit-border-radius: 36px;
+        -ms-border-radius: 36px; }
+    
+    .btn1-link {
+      font-size: 16px;
+      font-weight: 700;
+      color: #222222;
+      text-decoration: none !important; }
+      .btn1-link i {
+        margin-left: 6px;
+        position: relative;
+        top: 2px; }
+      .btn1-link:hover {
+        color: #e7015e; }
+        
+    
 
 
 .section-title,
@@ -464,6 +519,16 @@ img.pull-right {
     margin-left: 30px; }
     .header ul.navbar-nav > li.header-ticket .ticket-btn:hover {
       background: #e7015e; }
+
+      .header ul.navbar-nav > li.header-ticket .ticket-btn1 {
+        height: 40px;
+        line-height: 40px;
+        padding: 0px 25px;
+        background: #00c1c1;
+        margin-left: 30px; }
+        .header ul.navbar-nav > li.header-ticket .ticket-btn1:hover {
+          background: #e7015e; }
+    
 
 .header ul.navbar-nav li .dropdown-menu {
   padding: 10px 20px;
