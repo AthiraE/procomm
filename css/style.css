@@ -255,12 +255,13 @@ img.pull-right {
   position: relative;
   text-transform: uppercase; }
 
+  
 .btn {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
-  background: #ff007a;
+  background: #B2BEB5;
   height: 50px;
   padding: 0 35px;
   
@@ -280,7 +281,7 @@ img.pull-right {
     outline: none; }
   .btn:hover {
     color: #fff;
-    background: #d20055;
+    background: #B2BEB5;
     -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.15); }
   .btn.fill {
@@ -308,14 +309,14 @@ img.pull-right {
     top: 2px; }
   .btn-link:hover {
     color: #e7015e; }
-    
+
     .btn1 {
       font-size: 16px;
       font-weight: 700;
       color: #fff;
       text-transform: uppercase;
-      background: #ff007a;
-      height: 50px;
+      background: #e7015e;
+      height: 150px;
       padding: 0 35px;
       
       line-height: 50px;
@@ -330,6 +331,7 @@ img.pull-right {
       outline: none;
       text-decoration: none;
       cursor: pointer; }
+  
       .btn1:focus {
         outline: none; }
       .btn1:hover {
